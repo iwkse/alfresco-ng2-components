@@ -38,6 +38,7 @@ declare let __moduleName: string;
 export class AlfrescoLoginComponent {
 
     baseComponentPath = __moduleName.replace('/alfresco-login.component.js', '');
+    baseComponentLogo = this.baseComponentPath + '/../assets/images/logo_for_light_bg_28.png';
 
     isPasswordShow: boolean = false;
 
